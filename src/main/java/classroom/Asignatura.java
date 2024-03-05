@@ -13,11 +13,11 @@ public class Asignatura {
         this(0);
     }
 
-    public Asignatura() {
+    public Asignatura(int codigoInterno, Tipo tipo) {
         this("Sin nombre", codigoInterno, 0,tipo);
     }
 
-    public Asignatura() {
+    public Asignatura(int codigoExterno, Tipo tipo) {
         this("Sin nombre", 0, codigoExterno,tipo);
     }
 
