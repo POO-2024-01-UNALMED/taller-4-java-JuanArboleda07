@@ -3,7 +3,7 @@ package classroom;
 public class Asignatura {
 
     public String nombre;
-    public String n = nombre;
+    String n = nombre;
     public int codigoInterno;
     public int codigoExterno;
     public Tipo tipo;
@@ -13,11 +13,11 @@ public class Asignatura {
         this(0);
     }
 
-    public Asignatura(int codigoInterno,Tipo tipo) {
+    public Asignatura() {
         this("Sin nombre", codigoInterno, 0,tipo);
     }
 
-    public Asignatura(int codigoExterno,Tipo tipo) {
+    public Asignatura() {
         this("Sin nombre", 0, codigoExterno,tipo);
     }
 
